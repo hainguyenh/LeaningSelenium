@@ -1,0 +1,1 @@
+﻿https://www.automatetheplanet.com/page-objects-partial-classes-singleton/
