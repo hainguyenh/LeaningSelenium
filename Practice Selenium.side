@@ -1,0 +1,70 @@
+{
+  "id": "5047d6e0-2093-40a1-8191-d70f29d792d2",
+  "version": "2.0",
+  "name": "Practice Selenium",
+  "url": "http://automationpractice.com/index.php",
+  "tests": [{
+    "id": "8035f259-25fd-468a-b343-d7c58125a9f6",
+    "name": "Test1",
+    "commands": [{
+      "id": "03e4fdc7-74b3-4e7d-b35c-7fcd9a941323",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39fd8151-4f15-4660-b89c-0c6aba028645",
+      "comment": "",
+      "command": "click",
+      "target": "//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08fbb182-bd46-4633-86dc-408bbc37c8ea",
+      "comment": "Input Username",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0be10bc-805a-4e3b-aee1-c0f92d689819",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "email",
+      "targets": [],
+      "value": "truyentranhtuan@gmail.com"
+    }, {
+      "id": "d5cc3021-e9af-4979-8cfe-073ce590d2b8",
+      "comment": "Input pwd",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a3784d3-2c2d-4792-9590-b6ae3f4f8dc5",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "passwd",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "65eb0760-93b1-4533-9124-86033348fed5",
+      "comment": "",
+      "command": "click",
+      "target": "SubmitLogin",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "62869dfb-7680-4191-a024-84db0476dd77",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8035f259-25fd-468a-b343-d7c58125a9f6"]
+  }],
+  "urls": ["http://automationpractice.com/index.php"],
+  "plugins": []
+}

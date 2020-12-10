@@ -36,8 +36,6 @@ namespace TestingWithNUnit
             driver.Navigate().GoToUrl("http://google.com.vn");
         }
 
-
-
         [Test]
         [Category("04. Apply NUnit Framework to handle Test Script")]
         public void TestMethod_04()
@@ -68,12 +66,14 @@ namespace TestingWithNUnit
             var firstRecord = driver.FindElement(By.XPath("//*[@id='rso']/div/div/div[1]/div/div/div[1]/a[1]/h3")).Text;
             Assert.AreEqual("Selenium - Web Browser Automation", firstRecord);
         }
+        
         [TearDown]
         public void TestCleanup()
         {
             // Runs after each test. (Optional)
 
         }
+        
         [OneTimeTearDown]
         public void ClassCleanup()
         {
@@ -84,6 +84,5 @@ namespace TestingWithNUnit
             driver.Dispose();
         }
     }
-
 
 }
